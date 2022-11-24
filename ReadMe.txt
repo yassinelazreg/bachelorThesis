@@ -1,5 +1,7 @@
-4 synthetic voices (2 males and 2 females) were used to generate synthetic speech.
-To achieve this google cloud text-to-speech API was used.
+2 synthetic voices (1 male and 1 female) were used to generate synthetic speech.
+To achieve this, the Google Cloud text-to-speech API was used.
+the code can be found in the "main.py" file.
+
 The google cloud text-to-speech api allows pitch and speaking rate manipulation.
 
 - Duration shifting:
@@ -12,6 +14,5 @@ each speech sample was generated with normal pitch (pitch=0), increased/decrease
 
 -> Accordingly, for each voice 10 different speech samples with different speaking rates (5 files) and different pitches (5 files) were generated.
 
-Note: The files have been converted to video files so that they can be embedded in the questionnaire. (Audio files cannot be embedded in Google forms and other survey tools).
 
-Note: A controlQuestion file was generated as a control question for the survey. It contains following sentence: "For this question, please select rating 1 for all attributes.".
+Note: two additional speech samples for the control questions were generated. The first one contains: "For this question, please select rating 1 for all attributes.". and the second: "For this question, please select rating 4 for all attributes."
