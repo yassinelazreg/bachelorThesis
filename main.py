@@ -12,12 +12,12 @@ c = texttospeech_v1.TextToSpeechClient()
 
 
 # choose text input that will be turned into speech
-sentence = ''
+sentence = 'write your text here'
 text = texttospeech_v1.SynthesisInput(text=sentence)
 
 # Select the voice and the language
 speaker = texttospeech_v1.VoiceSelectionParams(
-    name='en-US-Wavenet-A', language_code="en-US"
+    name='en-US-Wavenet-C', language_code="en-US"
 )
 
 # choose file encoding type, speech rate, and pitch level
