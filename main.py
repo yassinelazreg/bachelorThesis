@@ -12,7 +12,7 @@ c = texttospeech_v1.TextToSpeechClient()
 
 
 # choose text input that will be turned into speech
-sentence = 'write your text here'
+sentence = 'write your text here!'
 text = texttospeech_v1.SynthesisInput(text=sentence)
 
 # Select the voice and the language
